@@ -1,6 +1,6 @@
 # ⚡ EnergyLens — Energy Waste & Cost Audit Tool
 
-**Live app:** [add your Streamlit Cloud link here after deploying]
+**Live app:** https://energylens-f5tzrx29shgmrapkwjaxsl.streamlit.app/
 **Author:** Avika Bhardwaj
 
 ## The Problem
