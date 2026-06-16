@@ -289,13 +289,12 @@ if df_raw is not None:
 
     st.divider()
     st.subheader("💡 Recommendations")
+    diff_label = "higher" if insights['pct_diff'] >= 0 else "lower"
     st.markdown(
         f"""
 - **{insights['peak_share']:.0f}%** of your total energy use happens during peak hours
   (9–12 PM, 6–10 PM), when grid strain — and often tariffs — are highest.
-- Your weekday usage is **{insights['pct_diff']:.0f}% higher** than weekend usage,
-  which is expected, but check if any of that weekday load (lighting, HVAC,
-  idle equipment) is running unnecessarily.
+- Your weekday usage is **{abs(insights['pct_diff']):.0f}% {diff_label}** than weekend usage,
 - If you shift just **20% of your peak-hour load** to off-peak hours (e.g.
   running non-urgent machinery overnight or early morning), you could save
   an estimated **₹{insights['cost_savings']:,.0f}** over this period under a typical
