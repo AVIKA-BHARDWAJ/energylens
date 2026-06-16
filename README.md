@@ -36,8 +36,8 @@ software, or only show a single bill total with no breakdown of *when* and
 
 - **Frontend/app framework:** Streamlit (chosen for fast deployment with no
   separate backend needed)
-- **Data processing:** Pandas, NumPy — same workflow used in my [Industrial
-  Energy Consumption Analysis project](#) (steel plant time-series analysis),
+- **Data processing:** Pandas, NumPy — same workflow used in my [[Industrial
+  Energy Consumption Analysis project](https://github.com/AVIKA-BHARDWAJ/industrial-energy-consumption-analysis)](#) (steel plant time-series analysis),
   generalized so it works on *any* uploaded dataset, not just one fixed file
 - **Visualization:** Plotly (interactive charts inside Streamlit)
 - **Assumptions documented in-app:** grid emission factor (CEA India, ~0.716
