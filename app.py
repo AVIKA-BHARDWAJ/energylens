@@ -260,7 +260,8 @@ if df_raw is not None:
         st.metric("Weekday Avg", f"{insights['weekday_avg']:.1f} kWh/hr")
         st.metric("Weekend Avg", f"{insights['weekend_avg']:.1f} kWh/hr")
         if not np.isnan(insights['pct_diff']):
-            st.metric("Difference", f"{insights['pct_diff']:.0f}% higher on weekdays")
+            diff_label = "higher" if insights['pct_diff'] >= 0 else "lower"
+            st.metric("Difference", f"{abs(insights['pct_diff']):.0f}% {diff_label} on weekdays")
     with wc2:
         day_avg = df.groupby("day_type")["energy_kwh"].mean().reset_index()
         fig = px.bar(day_avg, x="day_type", y="energy_kwh",
