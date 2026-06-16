@@ -73,3 +73,10 @@ streamlit run app.py
 ## Tech Stack
 
 Python · Pandas · NumPy · Streamlit · Plotly
+
+<img width="1916" height="976" alt="image" src="https://github.com/user-attachments/assets/d7cc5d9f-807d-4359-b549-902da5a2f561" />
+<img width="1917" height="982" alt="image" src="https://github.com/user-attachments/assets/2edacb9f-63c9-45ea-b7ea-d7ceee1921ba" />
+<img width="1918" height="977" alt="image" src="https://github.com/user-attachments/assets/5271d886-483a-440e-b1d4-5e1a2f7a5ba2" />
+
+
+
